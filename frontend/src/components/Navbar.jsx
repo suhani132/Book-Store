@@ -19,10 +19,10 @@ function Navbar() {
   const navItems = (
     <>
       <li>
-        <a>Home</a>
+        <a href="/">Home</a>
       </li>
       <li>
-        <a>Course</a>
+        <a href="/Course">Course</a>
       </li>
       <li>
         <a>Contact</a>
@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <>
       <div className={`mx-auto container max-w-screen-2xl md:px-20 px-4 fixed top-0 left-0 right-0 z-50 ${
-        sticky?"sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out":"" } ` }>
+        sticky?"sticky-navbar shadow-sm bg-base-200 duration-300 transition-all ease-in-out":"" } ` }>
         <div className="navbar ">
           <div className="navbar-start">
             <div className="dropdown">
