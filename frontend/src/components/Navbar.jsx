@@ -42,7 +42,7 @@ function Navbar() {
         <a href="/Course">Course</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a href="/Contact">Contact</a>
       </li>
       <li>
         <a>About</a>
