@@ -6,13 +6,13 @@ import Footer from '../components/Footer'
 
 function Contacts() {
   return (
-   <>
+   <div className='flex-col'>
     <Navbar/>
-    <div className='min-h-screen '>
+    <div className='min-h-screen  items-center justify-center '>
     <Contact/>
     </div>
     <Footer/>
-   </>
+   </div>
   )
 }
 
