@@ -18,8 +18,11 @@ const URI= process.env.MongoDBURI;
 
 // connect to mongodb
 try{
- mongoose.connect(URI);
- console.log("connected to mongodb");
+ mongoose.connect(URI).then(()=>{
+  console.log("Connected to MongoDB");
+
+ });
+ 
 }catch(error){
     console.log("Error :"+error.message)
 }
